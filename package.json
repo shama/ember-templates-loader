@@ -15,6 +15,9 @@
   "bugs": {
     "url": "https://github.com/shama/ember-templates-loader/issues"
   },
+  "files": [
+    "index.js"
+  ],
   "dependencies": {
     "loader-utils": "~0.2.1"
   },
