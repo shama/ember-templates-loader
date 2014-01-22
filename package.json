@@ -1,6 +1,6 @@
 {
   "name": "ember-templates-loader",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Webpack loader for ember handlebars templates",
   "main": "index.js",
   "scripts": {
@@ -8,6 +8,13 @@
   },
   "author": "Kyle Robinson Young <kyle@dontkry.com> (http://dontkry.com)",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:shama/ember-templates-loader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shama/ember-templates-loader/issues"
+  },
   "dependencies": {
     "loader-utils": "~0.2.1"
   },
