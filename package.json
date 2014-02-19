@@ -1,6 +1,6 @@
 {
   "name": "ember-templates-loader",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Load templates into Ember with webpack.",
   "main": "index.js",
   "scripts": {
