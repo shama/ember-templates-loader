@@ -14,6 +14,20 @@ var MyView = Ember.View.extend({
 });
 ```
 
+Or better within your `webpack.config.js`:
+
+``` js
+module.exports = {
+  module: {
+    loaders: [
+      { test: /\.hbs$/, loader: 'ember-templates' }
+    ]
+  }
+};
+```
+
+Now all required handlebars templates will be compiled for Ember first.
+
 ## Install
 
 `npm install ember-templates-loader --save-dev`
