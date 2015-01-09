@@ -40,5 +40,5 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 * 0.2.0 - Precompile templates for Ember and publish
 
 ## License
-Copyright (c) 2014 Kyle Robinson Young  
+Copyright (c) 2015 Kyle Robinson Young  
 Licensed under the MIT license.
