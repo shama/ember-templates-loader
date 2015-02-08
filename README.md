@@ -36,6 +36,7 @@ Now all required handlebars templates will be compiled for Ember first.
 In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 ## Release History
+* 1.1.0 - Support for Ember 1.10 and HTMLBars
 * 1.0.1 - Include ember-template-compiler in package.json (@mzgoddard)
 * 1.0.0 - Update to Handlebars 2.0 and template compiler for Ember 1.9 (@mzgoddard)
 * 0.2.0 - Precompile templates for Ember and publish
