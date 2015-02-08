@@ -4,7 +4,7 @@
 
 ## Description
 
-This will precompile your Handlebar templates when you build with webpack with overrides specific for Ember.
+This will precompile your HTMLBars templates when you build with webpack with overrides specific for Ember.
 
 ## Usage
 
