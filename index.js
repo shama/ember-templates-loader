@@ -1,12 +1,6 @@
-var precompile = require('./ember-template-compiler').precompile;
-
+var precompile = require('ember/ember-template-compiler').precompile;
 module.exports = function(source) {
   this.cacheable && this.cacheable();
-  var done = this.async();
-  var templateSpec = precompile(source, false);
-  done(
-    null,
-    'module.exports = Ember.Handlebars.template(' + templateSpec + ');'
-  );
+  return 'module.exports = ' + precompile(source) + ';';
 }
 module.exports.seperable = true;

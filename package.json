@@ -4,7 +4,8 @@
   "description": "Load templates into Ember with webpack.",
   "main": "index.js",
   "scripts": {
-    "test": "webpack-dev-server --config test/webpack.config.js"
+    "test": "webpack-dev-server --config test/webpack.config.js",
+    "install": "napa"
   },
   "author": "Kyle Robinson Young <kyle@dontkry.com> (http://dontkry.com)",
   "license": "MIT",
@@ -20,7 +21,10 @@
     "index.js"
   ],
   "dependencies": {
-    "handlebars": "~2.0.0"
+    "napa": "^1.2.0"
+  },
+  "napa": {
+    "ember": "components/ember#1.10.0"
   },
   "devDependencies": {
     "webpack-dev-server": "~0.11.0",
