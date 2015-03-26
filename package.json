@@ -18,7 +18,8 @@
     "url": "https://github.com/shama/ember-templates-loader/issues"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "ember-template-compiler.js"
   ],
   "dependencies": {
   },
