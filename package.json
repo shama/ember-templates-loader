@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "webpack-dev-server --config test/webpack.config.js",
-    "copy": "cp node_modules/ember/ember-template-compiler.js ./ember-template-compiler.js",
-    "install": "napa"
+    "copy": "cp node_modules/ember/ember-template-compiler.js ./ember-template-compiler.js"
   },
   "author": "Kyle Robinson Young <kyle@dontkry.com> (http://dontkry.com)",
   "license": "MIT",
