@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "webpack-dev-server --config test/webpack.config.js",
+    "copy": "cp node_modules/ember/ember-template-compiler.js ./ember-template-compiler.js",
     "install": "napa"
   },
   "author": "Kyle Robinson Young <kyle@dontkry.com> (http://dontkry.com)",
@@ -20,7 +21,6 @@
     "index.js"
   ],
   "dependencies": {
-    "napa": "^1.2.0"
   },
   "napa": {
     "ember": "components/ember#1.10.0"
@@ -30,6 +30,7 @@
     "should": "~3.1.2",
     "mocha": "~1.14.0",
     "mocha-loader": "~0.6.3",
+    "napa": "^1.2.0",
     "css-loader": "~0.6.2",
     "raw-loader": "~0.5.0"
   },
