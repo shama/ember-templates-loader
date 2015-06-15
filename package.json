@@ -22,7 +22,7 @@
   ],
   "dependencies": {},
   "napa": {
-    "ember": "components/ember#1.12.0"
+    "ember": "components/ember#1.13.0"
   },
   "devDependencies": {
     "webpack-dev-server": "~0.11.0",
