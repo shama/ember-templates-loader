@@ -22,6 +22,12 @@ module.exports = {
     loaders: [
       { test: /\.hbs$/, loader: 'ember-templates' }
     ]
+  },
+  emberTemplatesLoader: {
+    // Where to require the compiler from, defaults to an internal compiler.
+    compiler: 'ember/ember-template-compiler',
+    // OR: Pass in the precompiler directly...
+    // precompile: require('ember/ember-template-compiler').precompile,
   }
 };
 ```
