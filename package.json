@@ -1,6 +1,6 @@
 {
   "name": "ember-templates-loader",
-  "version": "1.13.0",
+  "version": "2.0.3",
   "description": "Load templates into Ember with webpack.",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,7 @@
   ],
   "dependencies": {},
   "napa": {
-    "ember": "components/ember#1.13.0"
+    "ember": "components/ember#2.0.3"
   },
   "devDependencies": {
     "webpack-dev-server": "~0.11.0",
