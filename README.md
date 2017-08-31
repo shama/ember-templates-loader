@@ -42,7 +42,7 @@ Now all required handlebars templates will be compiled for Ember first.
 In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 ## Release History
-* 1.12.0 - Marks the start of versioning in sync with Ember - the template compilier is required to match the version of Ember.
+* 1.12.0 - Marks the start of versioning in sync with Ember - the template compiler is required to match the version of Ember.
 * 1.3.1 - Remove napa from install in package.json
 * 1.3.0 - Include ember-template-compiler directly instead of using napa.
 * 1.2.0 - Wrap template in Ember.HTMLBars.template()
@@ -52,5 +52,5 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 * 0.2.0 - Precompile templates for Ember and publish
 
 ## License
-Copyright (c) 2015 Kyle Robinson Young  
+Copyright (c) 2017 Kyle Robinson Young  
 Licensed under the MIT license.
