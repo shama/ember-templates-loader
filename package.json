@@ -22,16 +22,17 @@
   ],
   "dependencies": {},
   "napa": {
-    "ember": "components/ember#2.0.3"
+    "ember": "components/ember#2.14.1"
   },
   "devDependencies": {
-    "webpack-dev-server": "~0.11.0",
-    "should": "~3.1.2",
-    "mocha": "~1.14.0",
-    "mocha-loader": "~0.6.3",
-    "napa": "^1.2.0",
-    "css-loader": "~0.6.2",
-    "raw-loader": "~0.5.0"
+    "css-loader": "^0.28.7",
+    "mocha": "^3.5.0",
+    "mocha-loader": "^1.1.1",
+    "napa": "^3.0.0",
+    "raw-loader": "^0.5.0",
+    "should": "^12.0.0",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1"
   },
   "keywords": [
     "ember",
