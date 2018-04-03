@@ -1,11 +1,11 @@
 {
   "name": "ember-templates-loader",
-  "version": "2.1.2",
+  "version": "2.2.2",
   "description": "Load templates into Ember with webpack.",
   "main": "index.js",
   "scripts": {
     "test": "webpack-dev-server --config test/webpack.config.js",
-    "copy": "cp node_modules/ember/ember-template-compiler.js ./ember-template-compiler.js"
+    "copy": "cp node_modules/components-ember/ember-template-compiler.js ./ember-template-compiler.js"
   },
   "author": "Kyle Robinson Young <kyle@dontkry.com> (http://dontkry.com)",
   "license": "MIT",
@@ -21,14 +21,11 @@
     "ember-template-compiler.js"
   ],
   "dependencies": {},
-  "napa": {
-    "ember": "components/ember#2.1.2"
-  },
   "devDependencies": {
+    "components-ember": "components/ember#2.2.2",
     "css-loader": "^0.28.7",
     "mocha": "^3.5.0",
     "mocha-loader": "^1.1.1",
-    "napa": "^3.0.0",
     "raw-loader": "^0.5.0",
     "should": "^12.0.0",
     "webpack": "^3.5.5",
